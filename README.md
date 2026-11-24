@@ -4,9 +4,9 @@
 
 # tiny-chess-01
 
-A chess engine in Python, packed to 2,613 bytes with `makefun compress`
+A chess engine in Python, packed to 2,619 bytes with `makefun compress`
 (readable source: engine.py). 0x88 board, alpha-beta with iterative
-deepening on a fixed 200,000-node budget, transposition table, null-move
+deepening on a fixed 300,000-node budget, transposition table, null-move
 pruning, killer moves, castling, repetition scoring, quiescence with
 futility pruning, incremental material + piece-square eval.
 
